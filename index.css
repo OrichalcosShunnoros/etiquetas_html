@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap');
+ 
+
+
+header{
+    text-align: center;
+    margin: 50px;
+}
+
+
+body {  
+    background: #f6f8fa;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+main{
+    text-align: center;
+}
+
+details { 
+    background-color: #f6f8fa;
+    width: 100%;
+    margin-bottom: 1rem;   
+    border-radius: 8px;  
+    border: 1px solid #d8e0e9;
+    color: #364f6b;
+    position: relative;  
+}
+details summary {  
+    font-weight: 400;
+    font-size: 1.25rem;
+    padding: 1rem;
+    cursor: pointer;
+    list-style: none;
+}
+details p {
+    padding: 1rem;
+    margin: 0 1rem 1rem 1rem;
+    background: #f6f8fa;
+    border-left: 2px solid #364f6b;
+}
+
+details:hover,
+details[open] {
+    box-shadow: 5px 5px 15px #d9d9d9;
+}
+
+details[open] {
+    background: #ffffff;
+}
+
+details[open] summary {
+    font-weight: 600;
+}
+
+details summary::before {
+    position: absolute;
+    /* content: "👇";     */
+    font-size: 1.75rem;
+    top: 10px;
+    right: 16px;  
+}
+
+footer{
+    background: gray;
+    font-size: 10px;
+    text-align: center;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    float: left;
+    margin-right: 10px;
+}
+
+nav{
+    background: grey;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* details[open] summary::before {
+  -webkit-animation: rotate 0.6s ease-in-out both;
+          animation: rotate-emoji 0.6s ease-in-out both;
+}
+
+@-webkit-keyframes rotate-emoji {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+} */
+
+
+/* 
+details {
+    background-color: #f6f8fa;
+}
+
+details[open] {
+    background: #ffffff;
+}
+
+details summary {
+    font-weight: 400;
+    list-style: none;
+    cursor: pointer; 
+}
+
+details[open] summary {
+    font-weight: 600;
+}
+
+details p {
+    background: #f6f8fa;
+}
+
+details {
+    position: relative;
+}
+
+details summary::before {
+    position: absolute;
+    font-size: 1.75rem;
+    top: 10px;
+    right: 16px;
+}
+ */
